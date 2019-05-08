@@ -76,6 +76,7 @@ Gate One's `termio` and `terminal` Python modules can be used together to automa
 Install
 -------
 
+```
     centos 7.5
     #python: 
     pip install --upgrade setuptools
@@ -83,4 +84,4 @@ Install
     python setup.py install
     pip install tornado==4.0
     service gateone start
-
+```
