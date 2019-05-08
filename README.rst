@@ -71,17 +71,12 @@ Gate One's `termio` and `terminal` Python modules can be used together to automa
 * It can be used asynchronously:  It won't block which means it is perfect for executing commands from a web application.
 * It supports sophisticated decision trees and callbacks:  You can completely re-define all patterns and callbacks on-the-fly based on whatever conditions you want.
 
-
-
 Install
--------
 
-```
-    centos 7.5
-    #python: 
-    pip install --upgrade setuptools
-    pip install --upgrade pip
-    python setup.py install
-    pip install tornado==4.0
-    service gateone start
-```
+|    centos 7.5
+|    #python: 
+|    pip install --upgrade setuptools
+|    pip install --upgrade pip
+|    python setup.py install
+|    pip install tornado==4.0
+|    service gateone start
